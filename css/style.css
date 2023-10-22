@@ -17,7 +17,7 @@ nav{
     background-color: #ddd;
     padding: 25px 0px;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -31,6 +31,7 @@ nav a{
     color: black;
     font-weight: bold;
     text-decoration: none; 
+    text-align: center;
 }
 
 nav a:focus, nav a:hover {
@@ -102,3 +103,59 @@ p{
     margin-top: 0em;
     margin-bottom: 0em;
 }
+
+/* .first_travel{
+    grid-column: 1 / span 2;
+    margin-left: 2em;
+}
+
+.first_travel_images{
+    grid-column: 3 / span 2;
+} */
+
+.first_travel_heading, .second_travel_heading, .third_travel_heading, .fourth_travel_heading, .fifth_travel_heading, .sixth_travel_heading{
+    grid-column:1 / -1;
+}
+
+.first_travel_heading h3, .second_travel_heading h3, .third_travel_heading h3, .fourth_travel_heading h3, .fifth_travel_heading h3, .sixth_travel_heading h3{
+    text-align: center;
+}
+
+.first_travel_images, .second_travel_images, .third_travel_images, .fourth_travel_images, .fifth_travel_images, .sixth_travel_images{
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+.first_travel_images img, .second_travel_images img, .third_travel_images img, .fourth_travel_images img, .fifth_travel_images img, .sixth_travel_images img{
+    display: block;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.first_travel_text, .second_travel_text, .third_travel_text, .fourth_travel_text, .fifth_travel_text, .sixth_travel_text{
+    grid-column: 1 / -1;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.first_travel_gallery, .second_travel_gallery, .third_travel_gallery, .fourth_travel_gallery, .fifth_travel_gallery, .sixth_travel_gallery{
+    grid-column: 1 / -1;
+}
+
+.first_travel_gallery h3, .second_travel_gallery h3, .third_travel_gallery h3, .fourth_travel_gallery h3, .fifth_travel_gallery h3, .sixth_travel_gallery h3{
+    margin-left: 2em;
+}
+
+.first_travel_gallery img, .second_travel_gallery img, .third_travel_gallery img, .fourth_travel_gallery img, .fifth_travel_gallery img, .sixth_travel_gallery img{
+    margin-bottom: 0em;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.first_travel_gallery figcaption, .second_travel_gallery figcaption, .third_travel_gallery figcaption, .fourth_travel_gallery figcaption, .fifth_travel_gallery figcaption, .sixth_travel_gallery figcaption{
+    text-align: center;
+    padding: 1em;
+}
+
