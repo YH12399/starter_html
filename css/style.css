@@ -1,0 +1,104 @@
+.skip{
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus{
+    position: absolute;
+    top: 20px;
+}
+
+*:focus{
+    border-style: solid;
+    border-width: 2px;
+}
+
+nav{
+    background-color: #ddd;
+    padding: 25px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav li{
+    display:inline;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+nav a:focus, nav a:hover {
+    text-decoration: underline;
+}
+
+nav .active{
+    font-weight: bold;
+    background-color: #a9a9a9;
+}
+
+img{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2em;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5em;
+    /* margin-top: 0.5em; */
+    /* margin-bottom: 0.5em; */
+}
+
+h3{
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2em;
+    /* margin-top: 0.5em; */
+    /* margin-bottom: 0.5em; */
+}
+
+p{
+    margin-bottom: 0.5em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding-top: 2em;
+}
+
+.first_pet, .second_pet, .third_pet, .fourth_pet, .fifth_pet{
+    grid-column: 1 / span 2;
+    margin-left: 2em;
+}
+
+.first_pet_image, .second_pet_image, .third_pet_image, .fourth_pet_image, .fifth_pet_image{
+    grid-column: 3 / span 2;
+}
+
+.first_pet_gallery, .second_pet_gallery, .third_pet_gallery, .fourth_pet_gallery, .fifth_pet_gallery{
+    grid-column: 1 / -1;
+}
+
+.first_pet_gallery h3, .second_pet_gallery h3, .third_pet_gallery h3, .fourth_pet_gallery h3, .fifth_pet_gallery h3{
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
