@@ -1,3 +1,4 @@
+/* Begin general styling */
 .skip{
     position: absolute;
     top: -40px;
@@ -62,16 +63,12 @@ h2{
     font-weight: bold;
     text-align: center;
     line-height: 1.5em;
-    /* margin-top: 0.5em; */
-    /* margin-bottom: 0.5em; */
 }
 
 h3{
     font-weight: bold;
     text-align: left;
     line-height: 1.2em;
-    /* margin-top: 0.5em; */
-    /* margin-bottom: 0.5em; */
 }
 
 p{
@@ -84,6 +81,8 @@ p{
     grid-gap: 1em;
     padding-top: 2em;
 }
+
+/* Begin styling for index.html */
 
 .first_pet, .second_pet, .third_pet, .fourth_pet, .fifth_pet{
     grid-column: 1 / span 2;
@@ -104,14 +103,7 @@ p{
     margin-bottom: 0em;
 }
 
-/* .first_travel{
-    grid-column: 1 / span 2;
-    margin-left: 2em;
-}
-
-.first_travel_images{
-    grid-column: 3 / span 2;
-} */
+/* Begin styling for travel.html */
 
 .first_travel_heading, .second_travel_heading, .third_travel_heading, .fourth_travel_heading, .fifth_travel_heading, .sixth_travel_heading{
     grid-column:1 / -1;
