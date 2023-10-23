@@ -195,6 +195,10 @@ div{
     margin-right: 1em;
 }
 
+.first_recipe_steps h3, .second_recipe_steps h3, .third_recipe_steps h3{
+    margin-top: 1em;
+}
+
 .first_recipe_gallery, .second_recipe_gallery, .third_recipe_gallery{
     grid-column: 1 / -1;
 }
