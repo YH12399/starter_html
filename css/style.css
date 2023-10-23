@@ -137,6 +137,8 @@ p{
     /* text-align: center; */
     margin-left: auto;
     margin-right: auto; 
+    box-shadow: 0.5em 0.8em 1.5em gray;
+    /* border: black 0.1em solid; */
 }
 
 .first_travel_text, .second_travel_text, .third_travel_text, .fourth_travel_text, .fifth_travel_text, .sixth_travel_text{
@@ -158,6 +160,7 @@ p{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    box-shadow: 0.75em -0.75em 1em lightgray;
 }
 
 .first_travel_gallery figcaption, .second_travel_gallery figcaption, .third_travel_gallery figcaption, .fourth_travel_gallery figcaption, .fifth_travel_gallery figcaption, .sixth_travel_gallery figcaption{
