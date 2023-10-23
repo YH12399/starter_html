@@ -138,11 +138,34 @@ p{
 
 .first_travel_images img, .second_travel_images img, .third_travel_images img, .fourth_travel_images img, .fifth_travel_images img, .sixth_travel_images img{
     display: block;
-    /* text-align: center; */
     margin-left: auto;
     margin-right: auto; 
     box-shadow: 0.5em 0.8em 1.5em gray;
-    /* border: black 0.1em solid; */
+}
+
+.static_gif{
+    display: none !important;
+}
+
+
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+
+     .motion_gif{
+        display: none !important;
+     }
+
+     .static_gif{
+        display: block !important;
+     }
 }
 
 .first_travel_text, .second_travel_text, .third_travel_text, .fourth_travel_text, .fifth_travel_text, .sixth_travel_text{
@@ -160,10 +183,6 @@ p{
 .first_travel_gallery h3, .second_travel_gallery h3, .third_travel_gallery h3, .fourth_travel_gallery h3, .fifth_travel_gallery h3, .sixth_travel_gallery h3{
     margin-left: 2em;
 }
-
-/* .first_travel_gallery figure{
-    background-color: lightgray
-} */
 
 .first_travel_gallery img, .second_travel_gallery img, .third_travel_gallery img, .fourth_travel_gallery img, .fifth_travel_gallery img, .sixth_travel_gallery img{
     margin-bottom: 0em;
