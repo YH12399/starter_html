@@ -20,7 +20,7 @@
 
 nav{
     background-color: #ddd;
-    padding: 25px 0px;
+    padding: 2em 0em;
     text-align: center;
     /* position: fixed; */
     width: 100%;
@@ -28,8 +28,8 @@ nav{
 
 nav li{
     display:inline;
-    padding-right: 3em;
-    padding-left: 3em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 nav a{
