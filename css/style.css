@@ -151,3 +151,55 @@ p{
     padding: 1em;
 }
 
+/* Begin styling for recipes.html */
+
+div{
+    grid-column: auto;
+}
+
+.first_recipe_heading, .second_recipe_heading, .third_recipe_heading{
+    grid-column: 1 / -1;
+}
+
+.first_recipe_brief, .second_recipe_brief, .third_recipe_brief{
+    grid-column: 1 / -1;
+}
+
+.first_recipe_brief > :first-child, .second_recipe_brief > :first-child, .third_recipe_brief > :first-child{
+    margin-left: 1em;
+}
+
+.first_recipe_content, .second_recipe_content, .third_recipe_content{
+    grid-column: 1 / span 2;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.first_recipe_content h3, .second_recipe_content h3, .third_recipe_content h3{
+    margin-top: 1em;
+}
+
+.first_recipe_image, .second_recipe_image, .third_recipe_image{
+    grid-column: 3 / span 2;
+    margin-right: 0em;
+}
+
+.first_recipe_steps, .second_recipe_steps, .third_recipe_steps{
+    grid-column: 1 / -1;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.first_recipe_gallery, .second_recipe_gallery, .third_recipe_gallery{
+    grid-column: 1 / -1;
+}
+
+.first_recipe_gallery h3, .second_recipe_gallery h3, .third_recipe_gallery h3{
+    margin-left: 1em;
+}
+
+.first_recipe_gallery img, .second_recipe_gallery img, .third_recipe_gallery img{
+    width: 38%
+}
+
