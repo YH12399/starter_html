@@ -201,6 +201,11 @@ div{
     margin-right: 0em;
 }
 
+.first_recipe_image img, .second_recipe_image img, .third_recipe_image img{
+    box-shadow: -0.5em 0.5em 1.5em gray;
+    border: black 0.1em solid;
+}
+
 .first_recipe_steps, .second_recipe_steps, .third_recipe_steps{
     grid-column: 1 / -1;
     margin-left: 1em;
@@ -221,6 +226,7 @@ div{
 }
 
 .first_recipe_gallery img, .second_recipe_gallery img, .third_recipe_gallery img{
-    width: 38%
+    width: 38%;
+    box-shadow: 0.5em 0.5em 1.5em gray;
 }
 
