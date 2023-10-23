@@ -36,11 +36,12 @@ nav a{
 }
 
 nav a:focus, nav a:hover {
-    text-decoration: underline;
+    text-decoration: wavy;
 }
 
 nav .active{
     font-weight: bold;
+    text-decoration: underline;
     background-color: #a9a9a9;
 }
 
