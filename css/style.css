@@ -101,7 +101,7 @@ p{
 
 .first_pet_gallery, .second_pet_gallery, .third_pet_gallery, .fourth_pet_gallery, .fifth_pet_gallery{
     grid-column: 1 / -1;
-    margin-left: 1.5em;
+    margin-left: 2.5%;
     border: black 0.1em solid;
     box-shadow: 0.5em 0.5em 1em lightgray inset, -0.5em -0.5em 1em lightgray inset;
     width: 95%;
