@@ -94,8 +94,17 @@ p{
     grid-column: 3 / span 2;
 }
 
+.first_pet_image img, .second_pet_image img, .third_pet_image img, .fourth_pet_image img, .fifth_pet_image img{
+    box-shadow: -0.5em 0.5em 1.5em gray;
+    border: black 0.1em solid;
+}
+
 .first_pet_gallery, .second_pet_gallery, .third_pet_gallery, .fourth_pet_gallery, .fifth_pet_gallery{
     grid-column: 1 / -1;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: black 0.1em solid;
+    box-shadow: 0.5em 0.5em 1em lightgray inset, -0.5em -0.5em 1em lightgray inset;
 }
 
 .first_pet_gallery img, .second_pet_gallery img, .third_pet_gallery img, .fourth_pet_gallery img, .fifth_pet_gallery img{
@@ -104,7 +113,7 @@ p{
 
 .first_pet_gallery h3, .second_pet_gallery h3, .third_pet_gallery h3, .fourth_pet_gallery h3, .fifth_pet_gallery h3{
     margin-left: 2em;
-    margin-top: 0em;
+    margin-top: 1em;
     margin-bottom: 0em;
 }
 
