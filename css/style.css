@@ -229,6 +229,12 @@ div{
 
 .first_recipe_content h3, .second_recipe_content h3, .third_recipe_content h3{
     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.first_recipe_content li, .second_recipe_content li, .third_recipe_content li{
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .first_recipe_image, .second_recipe_image, .third_recipe_image{
@@ -247,6 +253,11 @@ div{
     margin-top: 1em;
     margin-right: 1em;
     line-height: 1.4em;
+}
+
+.first_recipe_steps li, .second_recipe_steps li, .third_recipe_steps li{
+    margin-top: 1em;
+    margin-left: 0.5em;
 }
 
 .first_recipe_steps h3, .second_recipe_steps h3, .third_recipe_steps h3{
