@@ -101,13 +101,17 @@ p{
 
 .first_pet_gallery, .second_pet_gallery, .third_pet_gallery, .fourth_pet_gallery, .fifth_pet_gallery{
     grid-column: 1 / -1;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1.5em;
     border: black 0.1em solid;
     box-shadow: 0.5em 0.5em 1em lightgray inset, -0.5em -0.5em 1em lightgray inset;
+    width: 95%;
 }
 
 .first_pet_gallery img, .second_pet_gallery img, .third_pet_gallery img, .fourth_pet_gallery img, .fifth_pet_gallery img{
+    width: 38%;
+}
+
+.second_pet_gallery video{
     width: 38%;
 }
 
@@ -145,6 +149,8 @@ p{
     grid-column: 1 / -1;
     margin-left: 2em;
     margin-right: 2em;
+    line-height: 1.4em;
+    text-align: justify;
 }
 
 .first_travel_gallery, .second_travel_gallery, .third_travel_gallery, .fourth_travel_gallery, .fifth_travel_gallery, .sixth_travel_gallery{
@@ -154,6 +160,10 @@ p{
 .first_travel_gallery h3, .second_travel_gallery h3, .third_travel_gallery h3, .fourth_travel_gallery h3, .fifth_travel_gallery h3, .sixth_travel_gallery h3{
     margin-left: 2em;
 }
+
+/* .first_travel_gallery figure{
+    background-color: lightgray
+} */
 
 .first_travel_gallery img, .second_travel_gallery img, .third_travel_gallery img, .fourth_travel_gallery img, .fifth_travel_gallery img, .sixth_travel_gallery img{
     margin-bottom: 0em;
