@@ -1,11 +1,10 @@
 /* Begin general styling */
-.skip{
-    position: absolute;
+.skip a{
+    position: fixed;
     top: -40px;
 }
 
-.skip:focus{
-    position: absolute;
+.skip a:focus{
     top: 20px;
 }
 
